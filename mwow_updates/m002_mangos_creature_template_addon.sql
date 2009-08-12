@@ -1,0 +1,1 @@
+INSERT INTO `creature_template_addon` (`entry`,`bytes2`) VALUES ('15936','357');
