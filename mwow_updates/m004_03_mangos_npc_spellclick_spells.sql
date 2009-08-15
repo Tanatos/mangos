@@ -1,0 +1,1 @@
+INSERT INTO `npc_spellclick_spells` (`npc_entry`,`spell_id`,`quest_start`,`quest_start_active`,`quest_end`,`cast_flags`) VALUES ('26219','46816','11961','1','11961','1');

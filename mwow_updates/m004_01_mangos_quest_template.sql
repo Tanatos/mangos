@@ -1,0 +1,1 @@
+UPDATE `quest_template` SET `StartScript`='12132' WHERE `entry`='12132';
