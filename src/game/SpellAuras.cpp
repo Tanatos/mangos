@@ -2313,6 +2313,25 @@ void Aura::HandleAuraDummy(bool apply, bool Real)
                     }
                     return;
                 }
+                // Enchanted Ice Core
+                case 43354:
+                {
+                    if (caster && !apply)
+                    {
+                        ((Player*)caster)->KilledMonsterCredit(24235, m_target->GetGUID());
+                    }
+                    return;
+                }
+                // Drake Harpoon
+                case 46607:
+                {
+                    if (caster && !apply)
+                    {
+                        caster->CastSpell(caster, 46691, true);
+                        ((Creature*)m_target)->ForcedDespawn()
+                    }
+                    return;
+                }
                 // LK Intro VO (1)
                 case 58204:
                     if(m_target->GetTypeId() == TYPEID_PLAYER)

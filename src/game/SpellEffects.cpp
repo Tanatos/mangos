@@ -1133,6 +1133,71 @@ void Spell::EffectDummy(uint32 i)
                     m_caster->CastSpell(m_caster, 45088, true);
                     return;
                 }
+                case 45504:                                 // Free Kaskala Spirit
+                {
+                    if (!unitTarget)
+                        return;
+
+                    uint32 entry = unitTarget->GetEntry();
+                    switch(entry)
+                    {
+                    case 25321:
+                        ((Player*)m_caster)->KilledMonsterCredit(25321, unitTarget->GetGUID());
+                        ((Creature*)unitTarget)->ForcedDespawn();
+                        break;
+                    case 25322:
+                        ((Player*)m_caster)->KilledMonsterCredit(25322, unitTarget->GetGUID());
+                        ((Creature*)unitTarget)->ForcedDespawn();
+                        break;
+                    default: return;
+                    }
+                }
+                case 45474:                                 // Ragefist's Torch
+                {
+                    ((Player*)m_caster)->KilledMonsterCredit(25342, unitTarget->GetGUID());
+                    return;
+                }
+                case 46485:                                // The Greatmother's Soulcatcher 
+                {
+                    if (!unitTarget || unitTarget->isAlive())
+                        return;
+
+                    if (unitTarget->GetEntry() == 25814)
+                    {
+                        ((Player*)m_caster)->KilledMonsterCredit(26096, unitTarget->GetGUID());
+                        ((Creature*)unitTarget)->ForcedDespawn();
+                        return;
+                    }
+                }
+                case 46770:                                 // Liquid Fire of Elune
+                {
+                    uint32 entry = unitTarget->GetEntry();
+                    switch(entry)
+                    {
+                    case 26616:
+                        ((Player*)m_caster)->KilledMonsterCredit(27111, unitTarget->GetGUID());
+                        break;
+                    case 26643:
+                        ((Player*)m_caster)->KilledMonsterCredit(27112, unitTarget->GetGUID());
+                        break;
+                    default: return;
+                    }
+                }
+                case 46797:                                 // Quest - Borean Tundra - Set Explosives Cart ()
+                {
+                    uint32 entry = unitTarget->GetEntry();
+                    switch(entry)
+                    {
+                    case 25665:
+                    case 25666:
+                        ((Player*)m_caster)->KilledMonsterCredit(26248, unitTarget->GetGUID());
+                        break;
+                    case 25664:
+                        ((Player*)m_caster)->KilledMonsterCredit(26249, unitTarget->GetGUID());
+                        break;
+                    default: return;
+                    }
+                }
                 case 55004:                                 // Nitro Boosts
                     if(!m_CastItem) return;
                     if(roll_chance_i(95))                   // Nitro Boosts - success
