@@ -2328,7 +2328,7 @@ void Aura::HandleAuraDummy(bool apply, bool Real)
                     if (caster && !apply)
                     {
                         caster->CastSpell(caster, 46691, true);
-                        ((Creature*)m_target)->ForcedDespawn()
+                        ((Creature*)m_target)->ForcedDespawn();
                     }
                     return;
                 }
