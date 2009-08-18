@@ -1,14 +1,14 @@
 9
 
 dir
-1322
+1344
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2/patches
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2
 
 
 
-2009-07-29T13:34:55.993613Z
-1275
+2009-08-15T16:06:12.463598Z
+1340
 nofantasy
 
 
@@ -59,74 +59,6 @@ has-props
 
 
 2607
-
-MaNGOS-7842-ScriptDev2.patch
-file
-
-
-
-
-2009-08-11T10:28:04.015625Z
-5bbb8fd71961ab31c364b669b67697f3
-2009-05-17T22:24:14.744983Z
-1085
-nofantasy
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2846
-
-MaNGOS-8095-ScriptDev2.patch
-file
-
-
-
-
-2009-08-11T10:28:04.015625Z
-44b39b1e7b545a0e9b6a3da97cac0c28
-2009-06-30T22:45:51.963989Z
-1191
-nofantasy
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2969
 
 custom
 dir

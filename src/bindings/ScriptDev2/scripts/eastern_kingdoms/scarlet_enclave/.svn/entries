@@ -1,14 +1,14 @@
 9
 
 dir
-1322
+1344
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2/scripts/eastern_kingdoms/scarlet_enclave
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2
 
 
 
-2009-08-04T00:16:36.885050Z
-1301
+2009-08-15T14:21:03.710154Z
+1338
 nofantasy
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2009-08-11T10:30:00.765625Z
-feb6170d0e73e73ddc5ac3814bd852a1
-2009-08-04T00:16:36.885050Z
-1301
+2009-08-18T13:55:03.750000Z
+cf122bccdb989ce2ec3e49da7c6053f0
+2009-08-15T14:21:03.710154Z
+1338
 nofantasy
 has-props
 
@@ -58,5 +58,5 @@ has-props
 
 
 
-48825
+48808
 

@@ -1,14 +1,14 @@
 9
 
 dir
-1322
+1344
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2/scripts/examples
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2
 
 
 
-2009-08-02T14:27:08.707958Z
-1294
+2009-08-11T20:53:45.442533Z
+1329
 nofantasy
 
 
@@ -134,10 +134,10 @@ file
 
 
 
-2009-08-11T10:30:48.984375Z
-8c5ff46feae2de009730c19acda2f911
-2009-08-02T14:27:08.707958Z
-1294
+2009-08-18T13:55:04.656250Z
+2ce64fd7c79c74aa43784c57f67cfc36
+2009-08-11T20:53:45.442533Z
+1329
 nofantasy
 has-props
 
@@ -160,5 +160,5 @@ has-props
 
 
 
-7836
+7789
 

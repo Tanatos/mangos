@@ -1,14 +1,14 @@
 9
 
 dir
-1322
+1344
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2/base
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2
 
 
 
-2009-08-10T09:10:23.415106Z
-1320
+2009-08-15T14:21:03.710154Z
+1338
 nofantasy
 
 
@@ -202,10 +202,10 @@ file
 
 
 
-2009-08-11T10:31:44.906250Z
-237785555fd9247b1c85a9910e861b4e
-2009-08-10T09:10:23.415106Z
-1320
+2009-08-18T13:55:05.937500Z
+17acbdb0cb74edc498dd686d156a1aff
+2009-08-11T20:53:45.442533Z
+1329
 nofantasy
 has-props
 
@@ -228,7 +228,7 @@ has-props
 
 
 
-13492
+13294
 
 guard_ai.cpp
 file
@@ -270,10 +270,10 @@ file
 
 
 
-2009-08-11T10:31:44.906250Z
-a024632070b7d5dc3b82a34474f274f0
-2009-08-10T09:10:23.415106Z
-1320
+2009-08-18T13:55:05.953125Z
+2f859bf0d7aeecdc4f3449308ccaba26
+2009-08-15T14:21:03.710154Z
+1338
 nofantasy
 has-props
 
@@ -296,5 +296,5 @@ has-props
 
 
 
-3105
+3285
 

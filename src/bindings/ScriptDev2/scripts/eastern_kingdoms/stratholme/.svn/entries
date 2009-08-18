@@ -1,14 +1,14 @@
 9
 
 dir
-1322
+1344
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2/scripts/eastern_kingdoms/stratholme
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2
 
 
 
-2009-08-04T10:19:32.239941Z
-1303
+2009-08-15T14:21:03.710154Z
+1338
 nofantasy
 
 
@@ -168,10 +168,10 @@ file
 
 
 
-2009-08-11T10:30:37.921875Z
-81d740c803530ff86c56597f6f1c207b
-2009-08-04T10:19:32.239941Z
-1303
+2009-08-18T13:55:04.343750Z
+69635b7a9d4d5052e2caefa2fb6e64ad
+2009-08-15T14:21:03.710154Z
+1338
 nofantasy
 has-props
 
@@ -194,7 +194,7 @@ has-props
 
 
 
-7600
+7588
 
 stratholme.cpp
 file

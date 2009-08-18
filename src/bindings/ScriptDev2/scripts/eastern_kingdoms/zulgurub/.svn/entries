@@ -1,7 +1,7 @@
 9
 
 dir
-1322
+1344
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2/scripts/eastern_kingdoms/zulgurub
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2
 
@@ -25,40 +25,6 @@ svn:special svn:externals svn:needs-lock
 
 
 5f9c896b-1e26-0410-94da-f77f675e2462
-
-boss_thekal.cpp
-file
-
-
-
-
-2009-08-11T10:29:55.484375Z
-aa2fe0d4079e57b711e1b8db72d9177e
-2009-08-04T10:19:32.239941Z
-1303
-nofantasy
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18223
 
 boss_hazzarah.cpp
 file
@@ -93,6 +59,40 @@ has-props
 
 
 3160
+
+boss_thekal.cpp
+file
+
+
+
+
+2009-08-11T10:29:55.484375Z
+aa2fe0d4079e57b711e1b8db72d9177e
+2009-08-04T10:19:32.239941Z
+1303
+nofantasy
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18223
 
 boss_jeklik.cpp
 file
@@ -162,40 +162,6 @@ has-props
 
 739
 
-instance_zulgurub.cpp
-file
-
-
-
-
-2009-08-11T10:29:55.515625Z
-aa77209c0275e9c808dc310b24aa046f
-2009-08-04T10:19:32.239941Z
-1303
-nofantasy
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4657
-
 boss_grilek.cpp
 file
 
@@ -229,6 +195,40 @@ has-props
 
 
 2769
+
+instance_zulgurub.cpp
+file
+
+
+
+
+2009-08-11T10:29:55.515625Z
+aa77209c0275e9c808dc310b24aa046f
+2009-08-04T10:19:32.239941Z
+1303
+nofantasy
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4657
 
 boss_arlokk.cpp
 file
@@ -434,40 +434,6 @@ has-props
 
 10136
 
-boss_marli.cpp
-file
-
-
-
-
-2009-08-11T10:29:55.531250Z
-45e8434bd136319fdc12772d66658388
-2009-08-04T10:19:32.239941Z
-1303
-nofantasy
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8645
-
 boss_mandokir.cpp
 file
 
@@ -501,6 +467,40 @@ has-props
 
 
 10162
+
+boss_marli.cpp
+file
+
+
+
+
+2009-08-11T10:29:55.531250Z
+45e8434bd136319fdc12772d66658388
+2009-08-04T10:19:32.239941Z
+1303
+nofantasy
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8645
 
 boss_gahzranka.cpp
 file

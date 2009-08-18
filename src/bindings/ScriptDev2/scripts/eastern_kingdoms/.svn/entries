@@ -1,14 +1,14 @@
 9
 
 dir
-1322
+1344
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2/scripts/eastern_kingdoms
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2
 
 
 
-2009-08-10T10:49:35.257887Z
-1321
+2009-08-16T00:13:00.593414Z
+1344
 nofantasy
 
 
@@ -140,10 +140,10 @@ file
 
 
 
-2009-08-11T10:30:47.406250Z
-c899251247a760172c18cdc54edcd9e5
-2009-08-02T14:27:08.707958Z
-1294
+2009-08-18T13:55:04.500000Z
+430a8a3bd30ede19cd07bbce6f3c95e6
+2009-08-11T20:53:45.442533Z
+1329
 nofantasy
 has-props
 
@@ -166,7 +166,7 @@ has-props
 
 
 
-10759
+10597
 
 loch_modan.cpp
 file
@@ -279,10 +279,10 @@ file
 
 
 
-2009-08-11T10:30:47.406250Z
-e54da40968a5e35f2b2376e184dcf764
-2009-08-02T14:27:08.707958Z
-1294
+2009-08-18T13:55:04.515625Z
+7c042c3cac80142b83008d32aff9bfc5
+2009-08-11T20:53:45.442533Z
+1329
 nofantasy
 has-props
 
@@ -305,7 +305,7 @@ has-props
 
 
 
-8993
+8924
 
 deadmines
 dir
@@ -319,10 +319,10 @@ file
 
 
 
-2009-08-11T10:30:47.421875Z
-624ee842129f3f12dcbaca14fe7f410b
-2009-08-10T10:49:35.257887Z
-1321
+2009-08-18T13:55:04.531250Z
+4c23dd8407d4fb169a913733aa955ada
+2009-08-15T16:34:42.805895Z
+1341
 nofantasy
 has-props
 
@@ -345,7 +345,7 @@ has-props
 
 
 
-10443
+10516
 
 searing_gorge.cpp
 file
@@ -384,6 +384,9 @@ has-props
 blackrock_spire
 dir
 
+scarlet_monastery
+dir
+
 isle_of_queldanas.cpp
 file
 
@@ -418,7 +421,7 @@ has-props
 
 5205
 
-scarlet_monastery
+karazhan
 dir
 
 stormwind_city.cpp
@@ -455,11 +458,39 @@ has-props
 
 8235
 
-karazhan
-dir
-
-blackrock_depths
-dir
+westfall.cpp
+file
+
+
+
+
+2009-08-18T13:55:04.546875Z
+fe9f41ed85003f37a48e839c9b183ea0
+2009-08-11T20:53:45.442533Z
+1329
+nofantasy
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9171
 
 wetlands.cpp
 file
@@ -467,10 +498,10 @@ file
 
 
 
-2009-08-11T10:30:47.437500Z
-0c310d79ef6f42bf7cf37b4dfcd36c69
-2009-08-09T11:28:56.263489Z
-1317
+2009-08-18T13:55:04.531250Z
+a9e242427f00ae988e68e0fafcbce006
+2009-08-11T20:53:45.442533Z
+1329
 nofantasy
 has-props
 
@@ -493,41 +524,10 @@ has-props
 
 
 
-4910
+4787
 
-westfall.cpp
-file
-
-
-
-
-2009-08-11T10:30:47.437500Z
-b3e7165e26b943c462993f8174cef74a
-2009-08-02T14:27:08.707958Z
-1294
-nofantasy
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9236
+blackrock_depths
+dir
 
 sunwell_plateau
 dir
@@ -539,9 +539,6 @@ zulaman
 dir
 
 blackwing_lair
-dir
-
-sunken_temple
 dir
 
 boss_kruul.cpp
@@ -578,16 +575,19 @@ has-props
 
 5348
 
+sunken_temple
+dir
+
 arathi_highlands.cpp
 file
 
 
 
 
-2009-08-11T10:30:47.437500Z
-3210f7ccde6cf9080cd50852259cf22d
-2009-08-02T14:27:08.707958Z
-1294
+2009-08-18T13:55:04.546875Z
+1bc70781e925f5d85ccb0140f303ae98
+2009-08-11T20:53:45.442533Z
+1329
 nofantasy
 has-props
 
@@ -610,7 +610,7 @@ has-props
 
 
 
-4400
+4350
 
 uldaman
 dir
@@ -658,10 +658,10 @@ file
 
 
 
-2009-08-11T10:30:47.453125Z
-c9071b35fc2eee2598d62e137f312996
-2009-08-02T14:27:08.707958Z
-1294
+2009-08-18T13:55:04.562500Z
+6cefad8b5187a53383e5a2739cd1ec3a
+2009-08-11T20:53:45.442533Z
+1329
 nofantasy
 has-props
 
@@ -684,7 +684,7 @@ has-props
 
 
 
-7062
+7006
 
 burning_steppes.cpp
 file

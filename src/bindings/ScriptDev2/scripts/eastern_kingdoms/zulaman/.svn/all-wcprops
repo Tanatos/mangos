@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svnroot/scriptdev2/!svn/ver/1303/scripts/eastern_kingdoms/zulaman
+/svnroot/scriptdev2/!svn/ver/1344/scripts/eastern_kingdoms/zulaman
 END
 boss_zuljin.cpp
 K 25
@@ -25,13 +25,13 @@ boss_halazzi.cpp
 K 25
 svn:wc:ra_dav:version-url
 V 83
-/svnroot/scriptdev2/!svn/ver/1303/scripts/eastern_kingdoms/zulaman/boss_halazzi.cpp
+/svnroot/scriptdev2/!svn/ver/1344/scripts/eastern_kingdoms/zulaman/boss_halazzi.cpp
 END
 boss_nalorakk.cpp
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/svnroot/scriptdev2/!svn/ver/1303/scripts/eastern_kingdoms/zulaman/boss_nalorakk.cpp
+/svnroot/scriptdev2/!svn/ver/1338/scripts/eastern_kingdoms/zulaman/boss_nalorakk.cpp
 END
 def_zulaman.h
 K 25
@@ -49,7 +49,7 @@ boss_malacrass.cpp
 K 25
 svn:wc:ra_dav:version-url
 V 85
-/svnroot/scriptdev2/!svn/ver/1303/scripts/eastern_kingdoms/zulaman/boss_malacrass.cpp
+/svnroot/scriptdev2/!svn/ver/1338/scripts/eastern_kingdoms/zulaman/boss_malacrass.cpp
 END
 boss_akilzon.cpp
 K 25

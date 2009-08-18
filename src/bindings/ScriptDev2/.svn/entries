@@ -1,14 +1,14 @@
 9
 
 dir
-1322
+1344
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2
 
 
 
-2009-08-10T11:12:13.077553Z
-1322
+2009-08-16T00:13:00.593414Z
+1344
 nofantasy
 
 
@@ -25,6 +25,9 @@ svn:special svn:externals svn:needs-lock
 
 
 5f9c896b-1e26-0410-94da-f77f675e2462
+
+VC80
+dir
 
 scriptdev2.conf.dist.in
 file
@@ -60,9 +63,6 @@ has-props
 
 661
 
-VC80
-dir
-
 VC90
 dir
 
@@ -72,48 +72,14 @@ dir
 system
 dir
 
-scripts
+patches
 dir
 
-patches
+scripts
 dir
 
 docs
 dir
-
-config.h
-file
-
-
-
-
-2009-08-11T10:31:46.656250Z
-6beb6d7da0df569542ea2ebd1cc3994c
-2009-08-03T12:59:25.920490Z
-1297
-nofantasy
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1770
 
 ScriptMgr.cpp
 file
@@ -149,19 +115,16 @@ has-props
 
 14396
 
-sql
-dir
-
-ScriptMgr.h
+config.h
 file
 
 
 
 
-2009-08-11T10:31:46.656250Z
-f23377818e090fde53e9bb2f151dd08d
-2009-08-01T17:04:05.949912Z
-1288
+2009-08-18T13:55:05.984375Z
+f7bc128fbeb903b9fca813ac8bfafd4f
+2009-08-16T00:13:00.593414Z
+1344
 nofantasy
 has-props
 
@@ -184,19 +147,22 @@ has-props
 
 
 
-3217
+1769
 
-LICENSE.txt
+sql
+dir
+
+scriptVC80.sln
 file
 
 
 
 
-2009-08-11T10:31:46.656250Z
-46b39127c800ae9546b0675c7dc36190
-2007-05-12T19:27:23.860831Z
-43
-ntsc
+2009-08-11T10:31:46.671875Z
+5d56984aaf12799735c34e3558cf285e
+2008-09-29T12:18:14.541211Z
+670
+nofantasy
 has-props
 
 
@@ -218,7 +184,7 @@ has-props
 
 
 
-15400
+1240
 
 config.h.in
 file
@@ -254,16 +220,50 @@ has-props
 
 1769
 
-scriptVC80.sln
+LICENSE.txt
 file
 
 
 
 
-2009-08-11T10:31:46.671875Z
-5d56984aaf12799735c34e3558cf285e
-2008-09-29T12:18:14.541211Z
-670
+2009-08-11T10:31:46.656250Z
+46b39127c800ae9546b0675c7dc36190
+2007-05-12T19:27:23.860831Z
+43
+ntsc
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15400
+
+ScriptMgr.h
+file
+
+
+
+
+2009-08-11T10:31:46.656250Z
+f23377818e090fde53e9bb2f151dd08d
+2009-08-01T17:04:05.949912Z
+1288
 nofantasy
 has-props
 
@@ -286,7 +286,7 @@ has-props
 
 
 
-1240
+3217
 
 scriptVC90.sln
 file
@@ -328,10 +328,10 @@ file
 
 
 
-2009-08-11T10:31:46.671875Z
-46494904fc9f9fa3c65ceddc86b4c94b
-2009-08-07T01:01:23.982316Z
-1312
+2009-08-18T13:55:06.015625Z
+4e6028d8b93701d733cc7183a0152bb3
+2009-08-15T15:37:08.178571Z
+1339
 nofantasy
 has-props
 
@@ -354,7 +354,7 @@ has-props
 
 
 
-25809
+25836
 
 base
 dir

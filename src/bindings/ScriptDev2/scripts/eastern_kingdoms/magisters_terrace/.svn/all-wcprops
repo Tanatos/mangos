@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/svnroot/scriptdev2/!svn/ver/1303/scripts/eastern_kingdoms/magisters_terrace
+/svnroot/scriptdev2/!svn/ver/1338/scripts/eastern_kingdoms/magisters_terrace
 END
 magisters_terrace.cpp
 K 25
@@ -25,7 +25,7 @@ boss_felblood_kaelthas.cpp
 K 25
 svn:wc:ra_dav:version-url
 V 103
-/svnroot/scriptdev2/!svn/ver/1303/scripts/eastern_kingdoms/magisters_terrace/boss_felblood_kaelthas.cpp
+/svnroot/scriptdev2/!svn/ver/1338/scripts/eastern_kingdoms/magisters_terrace/boss_felblood_kaelthas.cpp
 END
 boss_selin_fireheart.cpp
 K 25

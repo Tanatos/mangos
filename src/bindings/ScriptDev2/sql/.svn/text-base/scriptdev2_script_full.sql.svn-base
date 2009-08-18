@@ -176,7 +176,7 @@ INSERT INTO script_texts (entry,content_default,sound,type,language,emote,commen
 
 (-1000207,'You have my blessing',0,0,0,0,'ashyen_and_keleth SAY_REWARD_BLESS'),
 
-(-1000208,'UNUSED',0,0,0,0,'REUSE ME'),
+(-1000208,'Frenzyheart kill you if you come back. You no welcome here no more!',0,0,0,0,'vekjik SAY_TEXTID_VEKJIK1'),
 
 (-1000209,'Very well. Let\'s see what you have to show me, $N.',0,0,1,0,'anvilward SAY_ANVIL1'),
 (-1000210,'What manner of trick is this, $R? If you seek to ambush me, I warn you I will not go down quietly!',0,0,1,0,'anvilward SAY_ANVIL2'),
@@ -265,12 +265,12 @@ INSERT INTO script_texts (entry,content_default,sound,type,language,emote,commen
 (-1000285, 'We have all three of the relics, but my energy is rapidly fading. We must make our way back to Dreamwarden Lurosa! He will let you know what to do next.',0,0,0,0,'clintar SAY_RELIC3'),
 (-1000286, 'Lurosa, I am entrusting the Relics of Aviana to $N, who will take them to Morthis Whisperwing. I must return completely to the Emerald Dream now. Do not let $N fail!',0,0,0,1,'clintar SAY_END'),
 
-(-1000287,'Emergency power activated! Initializing ambulancery motor! CLUCK!',0,0,0,0,'oox17 SAY_START'),
-(-1000288,'Physical threat detected! Evasive action! CLUCK!',0,0,0,0,'oox17 SAY_AGGRO1'),
-(-1000289,'Thread analyzed! Activating combat plan beta! CLUCK!',0,0,0,0,'oox17 SAY_AGGRO2'),
-(-1000290,'CLUCK! Sensors detect spatial anomaly - danger imminent! CLUCK!',0,0,0,0,'oox17 SAY_AMBUSH'),
-(-1000291,'No one challanges the Wastewander nomads - not even robotic chickens! ATTACK!',0,0,0,0,'oox17 SAY_AMBUSH_REPLY'),
-(-1000292,'Cloaking systems online! CLUCK! Engaging cloak for transport to Booty Bay!',0,0,0,0,'oox17 SAY_END'),
+(-1000287,'Emergency power activated! Initializing ambulanory motor! CLUCK!',0,0,0,0,'oox SAY_OOX_START'),
+(-1000288,'Physical threat detected! Evasive action! CLUCK!',0,0,0,0,'oox SAY_OOX_AGGRO1'),
+(-1000289,'Thread analyzed! Activating combat plan beta! CLUCK!',0,0,0,0,'oox SAY_OOX_AGGRO2'),
+(-1000290,'CLUCK! Sensors detect spatial anomaly - danger imminent! CLUCK!',0,0,0,0,'oox SAY_OOX_AMBUSH'),
+(-1000291,'No one challanges the Wastewander nomads - not even robotic chickens! ATTACK!',0,0,0,0,'oox SAY_OOX17_AMBUSH_REPLY'),
+(-1000292,'Cloaking systems online! CLUCK! Engaging cloak for transport to Booty Bay!',0,0,0,0,'oox SAY_OOX_END'),
 
 (-1000293,'To the house! Stay close to me, no matter what! I have my gun and ammo there!',0,0,7,0,'stilwell SAY_DS_START'),
 (-1000294,'We showed that one!',0,0,7,0,'stilwell SAY_DS_DOWN_1'),
@@ -419,10 +419,10 @@ INSERT INTO script_texts (entry,content_default,sound,type,language,emote,commen
 (-1000414,'We can only stay a few moments before returning to the tower. If you wish to speak to us more you may find us there.',0,0,7,0,'hendel SAY_PROGRESS_4_TER'),
 (-1000415,'%s, too injured, gives up the chase.',0,2,0,0,'hendel EMOTE_SURRENDER'),
 
-(-1000416,'Emergency power activated! Initializing ambulatory motor! CLUCK!',0,0,0,0,'oox09 SAY_OOX_START'),
-(-1000417,'Threat analyzed! Activating combat plan beta! CLUCK!',0,0,0,0,'oox09 SAY_OOX_AGGRO'),
-(-1000418,'CLUCK! Sensors detect spatial anomaly -- danger imminent! CLUCK!',0,0,0,0,'oox09 SAY_OOX_DANGER'),
-(-1000419,'Cloaking systems online! CLUCK! Engaging cloak for transport to Booty Bay!',0,0,0,0,'oox09 SAY_OOX_COMPLETE');
+(-1000416,'REUSE',0,0,0,0,'REUSE'),
+(-1000417,'REUSE',0,0,0,0,'REUSE'),
+(-1000418,'REUSE',0,0,0,0,'REUSE'),
+(-1000419,'REUSE',0,0,0,0,'REUSE');
 
 -- -1 033 000 SHADOWFANG KEEP
 INSERT INTO script_texts (entry,content_default,sound,type,language,emote,comment) VALUES
@@ -506,7 +506,8 @@ INSERT INTO script_texts (entry,content_default,sound,type,language,emote,commen
 INSERT INTO script_texts (entry,content_default,sound,type,language,emote,comment) VALUES
 (-1230000,'Ah, hits the spot!',0,0,0,0,'rocknot SAY_GOT_BEER'),
 (-1230001,'Come to aid the Throne!',0,1,0,0,'dagran SAY_AGGRO'),
-(-1230002,'Hail to the king, baby!',0,1,0,0,'dagran SAY_SLAY');
+(-1230002,'Hail to the king, baby!',0,1,0,0,'dagran SAY_SLAY'),
+(-1230003,'You have challenged the Seven, and now you will die!',0,0,0,0,'doomrel SAY_DOOMREL_START_EVENT');
 
 -- -1 249 000 ONYXIA'S LAIR
 INSERT INTO script_texts (entry,content_default,sound,type,language,emote,comment) VALUES
@@ -2354,38 +2355,31 @@ INSERT INTO script_waypoint VALUES
 
 DELETE FROM script_waypoint WHERE entry=3439;
 INSERT INTO script_waypoint VALUES
-(3439, 0, 1109.15, -3104.11, 82.41, 5000, ''),
-(3439, 1, 1105.39, -3102.86, 82.74, 1000, 'SAY_STARTUP1'),
-(3439, 2, 1104.97, -3108.52, 83.10, 1000, ''),
-(3439, 3, 1110.01, -3110.48, 82.81, 1000, ''),
-(3439, 4, 1111.72, -3103.03, 82.21, 1000, ''),
-(3439, 5, 1106.98, -3099.44, 82.18, 1000, ''),
-(3439, 6, 1103.74, -3103.29, 83.05, 1000, ''),
-(3439, 7, 1112.55, -3106.56, 82.31, 1000, ''),
-(3439, 8, 1108.12, -3111.04, 82.99, 1000, ''),
-(3439, 9, 1109.32, -3100.39, 82.08, 1000, ''),
-(3439, 10, 1109.32, -3100.39, 82.08, 5000, 'SAY_STARTUP2'),
-(3439, 11, 1098.92, -3095.14, 82.97, 0, ''),
-(3439, 12, 1100.94, -3082.60, 82.83, 0, ''),
-(3439, 13, 1101.12, -3068.83, 82.53, 0, ''),
-(3439, 14, 1096.97, -3051.99, 82.50, 0, ''),
-(3439, 15, 1094.06, -3036.79, 82.70, 0, ''),
-(3439, 16, 1098.22, -3027.84, 83.79, 0, ''),
-(3439, 17, 1109.51, -3015.92, 85.73, 0, ''),
-(3439, 18, 1119.87, -3007.21, 87.08, 0, ''),
-(3439, 19, 1130.23, -3002.49, 91.27, 5000, ''),
-(3439, 20, 1130.23, -3002.49, 91.27, 3000, ''),
-(3439, 21, 1130.23, -3002.49, 91.27, 4000, 'SAY_PROGRESS_1'),
-(3439, 22, 1129.73, -2985.89, 92.46, 0, ''),
-(3439, 23, 1124.10, -2983.29, 92.81, 0, ''),
-(3439, 24, 1111.74, -2992.38, 91.59, 0, ''),
-(3439, 25, 1111.06, -2976.54, 91.81, 0, ''),
-(3439, 26, 1099.91, -2991.17, 91.67, 0, ''),
-(3439, 27, 1096.32, -2981.55, 91.73, 8000, 'SAY_PROGRESS_2'),
-(3439, 28, 1091.28, -2985.82, 91.74, 5000, 'SAY_PROGRESS_3'),
-(3439, 29, 1091.28, -2985.82, 91.74, 0, ''),
-(3439, 30, 1091.28, -2985.82, 91.74, 5000, 'SAY_END'),
-(3439, 31, 1091.28, -2985.82, 91.74, 180000, '');
+(3439, 0, 1105.090332, -3101.254150, 82.706, 1000, 'SAY_STARTUP1'),
+(3439, 1, 1103.204468, -3104.345215, 83.113, 1000, ''),
+(3439, 2, 1107.815186, -3106.495361, 82.739, 1000, ''),
+(3439, 3, 1104.733276, -3100.830811, 82.747, 1000, ''),
+(3439, 4, 1103.242554, -3106.270020, 83.133, 1000, ''),
+(3439, 5, 1112.807373, -3106.285400, 82.320, 1000, ''),
+(3439, 6, 1112.826782, -3108.908691, 82.377, 1000, ''),
+(3439, 7, 1108.053955, -3115.156738, 82.894, 0, ''),
+(3439, 8, 1108.355591, -3104.365234, 82.377, 5000, ''),
+(3439, 9, 1100.306763, -3097.539063, 83.150, 0, 'SAY_STARTUP2'),
+(3439, 10, 1100.562378, -3082.721924, 82.768, 0, ''),
+(3439, 11, 1097.512939, -3069.226563, 82.206, 0, ''),
+(3439, 12, 1092.964966, -3053.114746, 82.351, 0, ''),
+(3439, 13, 1094.010986, -3036.958496, 82.888, 0, ''),
+(3439, 14, 1095.623901, -3025.760254, 83.392, 0, ''),
+(3439, 15, 1107.656494, -3013.530518, 85.653, 0, ''),
+(3439, 16, 1119.647705, -3006.928223, 87.019, 0, ''),
+(3439, 17, 1129.991211, -3002.410645, 91.232, 7000, 'SAY_MERCENARY'),
+(3439, 18, 1133.328735, -2997.710693, 91.675, 1000, 'SAY_PROGRESS_1'),
+(3439, 19, 1131.799316, -2987.948242, 91.976, 1000, ''),
+(3439, 20, 1122.028687, -2993.397461, 91.536, 0, ''),
+(3439, 21, 1116.614868, -2981.916748, 92.103, 0, ''),
+(3439, 22, 1102.239136, -2994.245117, 92.074, 0, ''),
+(3439, 23, 1096.366211, -2978.306885, 91.873, 0, ''),
+(3439, 24, 1091.971558, -2985.919189, 91.730, 40000, 'SAY_PROGRESS_2');
 
 DELETE FROM script_waypoint WHERE entry=3465;
 INSERT INTO script_waypoint VALUES
@@ -2561,10 +2555,10 @@ INSERT INTO script_waypoint VALUES
 (7784, 4, -8829.37, -4373.14, 44.33, 0, ''),
 (7784, 5, -8817.38, -4372.41, 35.58, 0, ''),
 (7784, 6, -8803.47, -4371.60, 30.34, 0, ''),
-(7784, 7, -8795.10, -4365.61, 26.08, 0, ''), 
+(7784, 7, -8795.10, -4365.61, 26.08, 0, ''),
 (7784, 8, -8766.78, -4367.13, 25.15, 0, ''),
-(7784, 9, -8755.63, -4367.54, 24.63, 0, ''), 
-(7784, 10, -8754.42, -4365.59, 24.15, 0, ''), 
+(7784, 9, -8755.63, -4367.54, 24.63, 0, ''),
+(7784, 10, -8754.42, -4365.59, 24.15, 0, ''),
 (7784, 11, -8728.82, -4353.13, 20.90, 0, ''),
 (7784, 12, -8706.60, -4356.55, 17.93, 0, ''),
 (7784, 13, -8679.00, -4380.23, 12.64, 0, ''),

@@ -1,14 +1,14 @@
 9
 
 dir
-1322
+1344
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2/scripts/eastern_kingdoms/magisters_terrace
 http://scriptdev2.svn.sourceforge.net/svnroot/scriptdev2
 
 
 
-2009-08-04T10:19:32.239941Z
-1303
+2009-08-15T14:21:03.710154Z
+1338
 nofantasy
 
 
@@ -134,10 +134,10 @@ file
 
 
 
-2009-08-11T10:30:46.671875Z
-8a9c1ef9bcc9b2eef7276c9866d7223a
-2009-08-04T10:19:32.239941Z
-1303
+2009-08-18T13:55:04.468750Z
+e9dd42a7ac27f87573ee41aa3afa792a
+2009-08-15T14:21:03.710154Z
+1338
 nofantasy
 has-props
 
@@ -160,7 +160,7 @@ has-props
 
 
 
-25880
+24712
 
 boss_selin_fireheart.cpp
 file

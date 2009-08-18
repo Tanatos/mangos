@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 69
-/svnroot/scriptdev2/!svn/ver/1303/scripts/eastern_kingdoms/stratholme
+/svnroot/scriptdev2/!svn/ver/1338/scripts/eastern_kingdoms/stratholme
 END
 boss_nerubenkan.cpp
 K 25
@@ -31,7 +31,7 @@ boss_dathrohan_balnazzar.cpp
 K 25
 svn:wc:ra_dav:version-url
 V 98
-/svnroot/scriptdev2/!svn/ver/1303/scripts/eastern_kingdoms/stratholme/boss_dathrohan_balnazzar.cpp
+/svnroot/scriptdev2/!svn/ver/1338/scripts/eastern_kingdoms/stratholme/boss_dathrohan_balnazzar.cpp
 END
 stratholme.cpp
 K 25

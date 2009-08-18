@@ -2332,6 +2332,16 @@ void Aura::HandleAuraDummy(bool apply, bool Real)
                     }
                     return;
                 }
+                // Blood Oath
+                case 50141:
+                {
+                    if (m_target->GetTypeId() == TYPEID_PLAYER)
+                    {
+                        if (apply)
+                            ((Player*)m_target)->KilledMonsterCredit(27921, m_target->GetGUID());
+                    }
+                    return;
+                }
                 // LK Intro VO (1)
                 case 58204:
                     if(m_target->GetTypeId() == TYPEID_PLAYER)

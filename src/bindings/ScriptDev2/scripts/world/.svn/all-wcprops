@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 47
-/svnroot/scriptdev2/!svn/ver/1316/scripts/world
+/svnroot/scriptdev2/!svn/ver/1338/scripts/world
 END
 boss_lethon.cpp
 K 25
@@ -31,7 +31,7 @@ npcs_special.cpp
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svnroot/scriptdev2/!svn/ver/1316/scripts/world/npcs_special.cpp
+/svnroot/scriptdev2/!svn/ver/1338/scripts/world/npcs_special.cpp
 END
 boss_taerar.cpp
 K 25
@@ -73,5 +73,5 @@ boss_emeriss.cpp
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svnroot/scriptdev2/!svn/ver/1287/scripts/world/boss_emeriss.cpp
+/svnroot/scriptdev2/!svn/ver/1338/scripts/world/boss_emeriss.cpp
 END
