@@ -26,9 +26,6 @@ svn:special svn:externals svn:needs-lock
 
 5f9c896b-1e26-0410-94da-f77f675e2462
 
-VC80
-dir
-
 scriptdev2.conf.dist.in
 file
 
@@ -63,6 +60,9 @@ has-props
 
 661
 
+VC80
+dir
+
 VC90
 dir
 
@@ -72,48 +72,14 @@ dir
 system
 dir
 
-patches
+scripts
 dir
 
-scripts
+patches
 dir
 
 docs
 dir
-
-ScriptMgr.cpp
-file
-
-
-
-
-2009-08-11T10:31:46.656250Z
-5d9dd6779b38f822137248f4c7f31a62
-2009-08-08T08:29:30.122745Z
-1313
-nofantasy
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-14396
 
 config.h
 file
@@ -149,53 +115,16 @@ has-props
 
 1769
 
-sql
-dir
-
-scriptVC80.sln
-file
-
-
-
-
-2009-08-11T10:31:46.671875Z
-5d56984aaf12799735c34e3558cf285e
-2008-09-29T12:18:14.541211Z
-670
-nofantasy
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1240
-
-config.h.in
+ScriptMgr.cpp
 file
 
 
 
 
 2009-08-11T10:31:46.656250Z
-f7bc128fbeb903b9fca813ac8bfafd4f
-2009-08-03T12:59:25.920490Z
-1297
+5d9dd6779b38f822137248f4c7f31a62
+2009-08-08T08:29:30.122745Z
+1313
 nofantasy
 has-props
 
@@ -218,7 +147,44 @@ has-props
 
 
 
-1769
+14396
+
+sql
+dir
+
+ScriptMgr.h
+file
+
+
+
+
+2009-08-11T10:31:46.656250Z
+f23377818e090fde53e9bb2f151dd08d
+2009-08-01T17:04:05.949912Z
+1288
+nofantasy
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3217
 
 LICENSE.txt
 file
@@ -254,16 +220,16 @@ has-props
 
 15400
 
-ScriptMgr.h
+config.h.in
 file
 
 
 
 
 2009-08-11T10:31:46.656250Z
-f23377818e090fde53e9bb2f151dd08d
-2009-08-01T17:04:05.949912Z
-1288
+f7bc128fbeb903b9fca813ac8bfafd4f
+2009-08-03T12:59:25.920490Z
+1297
 nofantasy
 has-props
 
@@ -286,7 +252,41 @@ has-props
 
 
 
-3217
+1769
+
+scriptVC80.sln
+file
+
+
+
+
+2009-08-11T10:31:46.671875Z
+5d56984aaf12799735c34e3558cf285e
+2008-09-29T12:18:14.541211Z
+670
+nofantasy
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1240
 
 scriptVC90.sln
 file
